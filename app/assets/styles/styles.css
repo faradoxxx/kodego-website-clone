@@ -1,0 +1,10 @@
+@import 'normalize.css';
+
+body {
+  color: orange;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: inherit;
+}

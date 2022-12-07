@@ -2,31 +2,28 @@
   "name": "kodego-website-clone",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/faradoxxx/kodego-website-clone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/faradoxxx/kodego-website-clone/issues"
-  },
-  "homepage": "https://github.com/faradoxxx/kodego-website-clone#readme",
-  "dependencies": {
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
-  },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "css-loader": "^6.7.2",
-    "postcss-loader": "^7.0.2",
-    "postcss-nested": "^6.0.0",
-    "postcss-simple-vars": "^7.0.1",
-    "style-loader": "^3.3.1"
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.0.1",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.0.0",
+    "postcss-mixins": "^7.0.2",
+    "postcss-nested": "^5.0.3",
+    "postcss-simple-vars": "^6.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
