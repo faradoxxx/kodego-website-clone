@@ -7,8 +7,14 @@
     <title>KodeGo</title>
   </head>
   <body>
-    <header>
-      <img src="assets/images/kodego-large.svg" alt="KodeGo Logo" />
+    <header class="header">
+      <div class="container container--padded">
+      <img class="header__logo" src="assets/images/kodego-large.svg" alt="KodeGo Logo" />
+      <div class="header__user-links">
+      <a class="btn" href="#">Sign In</a>
+      <a class="btn btn--primary" href="#">Apply Now</a>
+      </div>
+      <nav class="header__nav">
       <ul>
         <li><a href="#">About Us</a></li>
         <li><a href="#">How It Works</a></li>
@@ -18,9 +24,7 @@
         <li><a href="#">Careers</a></li>
         <li><a href="#">FAQ</a></li>
       </ul>
-      <div>
-        <a href="#">Sign In</a>
-        <a href="#">Apply Now</a>
+      </nav>
       </div>
     </header>
     <script src="bundled.js"></script>
