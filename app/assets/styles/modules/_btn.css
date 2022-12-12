@@ -1,0 +1,11 @@
+.btn {
+  padding: 1.25rem 1rem;
+  display: inline-block;
+  border-radius: 5px;
+  color: $mainGreen;
+
+  &--primary {
+    background-color: $mainGreen;
+    color: #fff;
+  }
+}
