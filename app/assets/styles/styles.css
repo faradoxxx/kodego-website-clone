@@ -4,6 +4,7 @@
 @import "./modules/_container";
 @import "./modules/_header";
 @import "./modules/_btn";
+@import "./modules/_hero";
 /* 
 * {
   box-sizing: border-box;
